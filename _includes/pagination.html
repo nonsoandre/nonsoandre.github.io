@@ -1,0 +1,21 @@
+<div class="pagination" role="pagination">
+    {% if paginator.total_pages > 1 %}
+
+        {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path |  prepend: site.baseurl | replace: '//', '/'}}"><p> <span>&laquo;</span> Prev</p></a>
+        {% else%}
+            <span></span>
+        {%endif%}
+
+
+
+        
+        {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path |  prepend: site.baseurl | replace: '//', '/'}}" class="prev pagination_page-num"> Next &raquo;</a>
+        {%else%}
+            <span> </span>
+        {% endif %}  
+
+        
+    {% endif %}
+</div>

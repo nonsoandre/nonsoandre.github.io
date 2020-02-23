@@ -1,0 +1,65 @@
+---
+layout: default
+--- 
+    
+{% include postnav.html %}
+
+    <div class="container" >
+        <div 
+            <div class="row post-container">
+                {% include logo.html %}
+
+
+                <div class="all-posts">
+                    <h1 class="page-title">All Posts</h1>
+                    <hr style="color: black" class="page-hr">
+            {% for postlist in site.posts %}
+                    <a href="{{site.baseurl}}{{ postlist.url}}">
+                        <div class="posts-content">
+                            <div class="posts-body">
+                                <h2>{{postlist.title}}</h2>
+                                <p>{{postlist.meta}}</p>
+                            </div>
+                            <div class="posts-info">
+                                
+                                <p class="date">{{postlist.date}}</p>
+                                <p>{{postlist.category}}</p>
+                                <!-- <hr class="posts-info--hr"> -->
+                            </div>
+                        </div>                        
+                    </a>
+            {% endfor%}
+                    <a href="post.html">
+                        <div class="posts-content">
+                            <div class="posts-body">
+                                <h2>Get a grip with reality before you begin your Journey</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem doloribus eos cupiditate, sequi soluta repudiandae...</p>
+                            </div>
+                            <div class="posts-info">
+                                
+                                <p class="date">12 october 2020</p>
+                                <p>Tag: Javascript, Python</p>
+                                <!-- <hr class="posts-info--hr"> -->
+                            </div>
+                        </div>                        
+                    </a>
+
+
+                    <div class="all-posts--footer">
+                        
+                        <div class="footer-content">
+                            {% include pagination.html %}
+                           
+                            <!-- <p class="all-posts--end-message">Posts Ends Here</p> -->
+                            
+                        </div>                        
+                        <hr class="footer-hr">
+                        {% include social-links.html %}
+
+                    </div>
+                </div>
+          
+
+            </div>
+        </main>
+    </div>

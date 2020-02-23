@@ -1,0 +1,28 @@
+---
+layout: default
+title: page.title
+--- 
+    
+{% include postnav.html %}
+
+        <div class="container" >
+            <main> 
+                <div class="row post-container">
+                    {% include logo.html %}
+
+                    <div class="post-body">
+                        <h1 class="page-title">{{page.title | escape}}</h1>
+                        <hr class="page-hr">
+
+                        <article class="article-body">
+                            {{content}}
+                        </article>
+                    </div> 
+
+                    <div class="post-footer">
+                        <hr class="footer-hr">
+                        {% include social-links.html %}
+                    </div>
+                 </div>
+            </main>
+        </div>

@@ -1,0 +1,14 @@
+.butn{
+    background: white;
+    list-style-type: none;
+    padding: .5em .5em;
+    margin-bottom: 1em;
+    margin-left: .75em;
+    border: none;
+    box-shadow: 0 3px 5px .1rem $gray;
+    cursor: pointer;
+    border-bottom-right-radius: 10px;
+    .nav-link{
+        color: $--clr-font_2;
+    }
+}

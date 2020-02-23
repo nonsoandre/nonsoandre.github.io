@@ -1,0 +1,10 @@
+markdown: kramdown
+baseurl: /nonsoandre.github.io
+url: https://nonsoandre.github.io/
+paginate: 5
+paginate_path: "/page:num/"
+permalink: pretty
+exclude: [
+    'prepros-6.config'
+  ]
+plugins: [jekyll-paginate]

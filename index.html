@@ -1,0 +1,51 @@
+---
+layout: default
+---
+    <div class="wrapper"> 
+        <div class="nav-container">
+            <div class="hamburger-menu">
+                <span></span>
+            </div>
+            {% include post-nav.html  %}
+            <!-- <nav>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="about.html">About</a></li>
+                    <li class="nav-item"><a href="posts.html">Post</a></li>
+                    <li class="nav-item"><a href="#projects">Project</a></li>
+                    <li class="nav-item"><a href="#contact">Contact</a></li>
+                </ul> -->
+            </nav>
+        </div>
+
+        <main>
+            <div class="container">
+                <div class="card">
+                    {% include logo.html %}
+
+                    <div class="card-body">
+                        <h1>Blogging Since 90-Something</h1>
+
+                        <nav>
+                            <ul class="nav-links">
+                                <li class="list-item">
+                                    <a href="{{site.baseurl}}/about/" class="nav-link">About</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="{{site.baseurl}}/posts/" class="nav-link">Posts</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="{{site.baseurl}}/#/" class="nav-link">Projects</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="{{site.baseurl}}/#/" class="nav-link">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        {% include social-links.html %}
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>

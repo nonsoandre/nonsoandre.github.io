@@ -1,5 +1,5 @@
 markdown: kramdown
-baseurl: /nonsoandre.github.io
+baseurl: /
 url: https://nonsoandre.github.io/
 paginate: 5
 paginate_path: "/page:num/"

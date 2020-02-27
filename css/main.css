@@ -984,12 +984,16 @@ li {
   -o-transition: border-bottom-right-radius 750ms;
   transition: border-bottom-right-radius 750ms;
   margin-left: 7em; }
-  @media (max-width: 991.98px) {
-    .hamburger-menu {
-      margin-left: 2em; } }
   @media (max-width: 1199.98px) {
     .hamburger-menu {
       margin-left: 3em; } }
+  @media (max-width: 991.98px) {
+    .hamburger-menu {
+      margin-left: 2em; } }
+  @media (max-width: 650.98px) {
+    .hamburger-menu {
+      margin-left: .75em; } }
+
   .hamburger-menu span {
     width: 30px;
     height: 3px;
@@ -1211,13 +1215,14 @@ main {
       color: #242424; }
       @media (max-width: 370px) {
         .card .card-body h1 {
-          font-size: -0.5rem;
+          font-size: 1.3rem;
           margin-top: 6em;
           margin-bottom: 2em; } }
       @media (max-width: 320px) {
         .card .card-body h1 {
           font-size: 1rem;
-          font-weight: 900; } }
+          font-weight: 900; 
+        margin-left: unset;} }
     .card .card-body nav {
       margin-top: 3em;
       margin-bottom: 5em; }
@@ -1239,17 +1244,24 @@ main {
           -webkit-box-shadow: 0 3px 5px 0.1rem gray;
           box-shadow: 0 3px 5px 0.1rem gray;
           cursor: pointer; }
+          .card .card-body nav .nav-links .list-item:first-of-type{
+            margin-left: unset;
+          }
           .card .card-body nav .nav-links .list-item .nav-link,
           .card .card-body nav .nav-links .butn .nav-link {
             color: #5a5a5a; }
           .card .card-body nav .nav-links .list-item a,
           .card .card-body nav .nav-links .butn a {
             padding: .5em .5em; }
-          @media (max-width: 670px) {
+          @media (max-width: 670px) {            
+            .card .card-body nav .nav-links{
+              margin-left: 1.95em ;
+            }
             .card .card-body nav .nav-links .list-item,
             .card .card-body nav .nav-links .butn {
               margin-left: .5em; } }
           @media (max-width: 370px) {
+
             .card .card-body nav .nav-links .list-item,
             .card .card-body nav .nav-links .butn {
               font-size: 1rem;

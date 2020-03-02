@@ -914,11 +914,16 @@ body {
   @media (max-width: 767.98px) {
     body {
       padding: unset; } }
+      @media (max-width: 650px) {
+        h1, h2, h3, h4, h5{
+         line-height: 1.2;
+       } }
 
 a {
   text-decoration: none; }
 
 p {
+  margin-top: 1em;
   margin-bottom: 1em;
   color: #5a5a5a; }
 
@@ -952,6 +957,11 @@ li {
   height: 200px;
   /* border: 1px solid black; */
   margin-top: 2em; }
+  @media (max-width: 650.98px) {
+    .img-box {
+      width: 150px;
+      height: 150px; } 
+  }
 
 .img-fluid {
   max-width: 100%; }
@@ -1424,6 +1434,11 @@ main {
     -webkit-transform: rotate(270deg) translate(11em, 10.2em);
     -ms-transform: rotate(270deg) translate(11em, 10.2em);
     transform: rotate(270deg) translate(11em, 10.2em); }
+    @media (max-width: 650px) {
+      .about-body .img-caption{
+        -webkit-transform: rotate(270deg) translate(9em, 8.2em);
+        -ms-transform: rotate(270deg) translate(9em, 8.2em);
+        transform: rotate(270deg) translate(9em, 8.2em); } } 
   .about-body .about-body--text {
     text-align: left;
     margin-top: 2.5em; }

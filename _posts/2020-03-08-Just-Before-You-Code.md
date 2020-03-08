@@ -4,7 +4,7 @@ title:  What Every self-taught programmer ought to know before learning to code
 meta:   Before one delve into learning programming language, there are certain pre-requistes that is needed. But as a self-taught/self-teaching programmer, where there are know ready curricular, you are most highly guaranteed to skip phases
 excerpt: Before one delve into learning programming language, there are certain pre-requistes that is needed. But as a self-taught/self-teaching programmer, where there are know ready curricular, you are most highly guaranteed to skip phases
 date:   2020-02-27 00:56:57 +0100
-date-2: 27 February 2020
+date-2: 8 March 2020
 categories: recent
 description: What Every self-taught programmer ought to know before learning to code 
 ---

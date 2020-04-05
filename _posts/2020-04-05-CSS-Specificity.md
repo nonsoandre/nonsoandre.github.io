@@ -5,7 +5,7 @@ meta:   CSS specificity is a set of rules that helps the browser in selecting th
 excerpt: CSS specificity is a set of rules that helps the browser in selecting the particular style that is to be applied to an element. So in cases where there are conflicts of an element style, CSS specificity helps the browser in choosing the most specific style.
 date:   2020-04-05 00:56:57 +0100
 date-2: 05 April 2020
-categories: css
+categories: css  
 description: 
 ---
 When it comes to writing CSS, *CSS Specificity* is an aspect that we must come across all the time. Have you ever styled an element but the style is not being applied? This happens more often when you use frameworks. What has happened can be explained by what is known as CSS specificity.

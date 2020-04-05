@@ -68,13 +68,13 @@ Vue then prompts us to manually select our features or use default features. Unl
 
 Allow Vue to download all the files neccessary and set you up. Once this is done, move into the app directory and run your server through npm/yarn.
 
-        ```
+        `
             cd vue-app
             npm run serve
 
             # or
             yarn serve
-        ```
+        `
 
 
 That is it. You are now set up to use vue and begin development of your web app. For more on Vue check out its [documentation](https://www.vuejs.org/v2/guide/)

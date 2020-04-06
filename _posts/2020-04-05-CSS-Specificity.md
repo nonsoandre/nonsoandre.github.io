@@ -73,7 +73,7 @@ h1
 </div>
 ```
 
-In example 1, specificity value can be written as 
+In example 1, specificity value can be written as;
 - code A: specificity (0 0 0 1)
 - code B: specificity (0 0 1 0)
 - code C: specificity (0 1 0 0)
@@ -118,7 +118,7 @@ In example 3 specificity values can be written as;
 The code with the highest specificity is code C since its specificity value is 101. 
 
 
-## Conclusion:
+## Conclusion
 Understanding the concept of CSS specificity gives one a good advantage in debugging CSS which in turn can save you enormous amount of time. Its a concept that seems difficult to grasp at first but its quite easy when you understand it.
 
 ## Resources
